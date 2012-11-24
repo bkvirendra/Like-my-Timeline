@@ -3,7 +3,7 @@ import requests, json, urllib2
 token = "" # add youre access token here
 
 def main():
-	url = "https://graph.facebook.com/me/feed?since=1353609000&access_token=" + token
+	url = "https://graph.facebook.com/me/feed?access_token=" + token
 	data = urllib2.urlopen(url)
 	js = json.loads(data.read())
 	likes_id = []
