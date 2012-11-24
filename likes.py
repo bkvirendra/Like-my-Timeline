@@ -1,6 +1,6 @@
 import requests, json, urllib2
 
-token = "AAACEdEose0cBAEkq5JVqZACK450OLAEpk5CmuwZCNZAw1rPnXgwlZC5g1HXzGDtUovgmly7Rrakl5LrytcUprnfbi5tFmfe0mmmXlajU7jyZAcQo0c4hq"
+token = "" # add youre access token here
 
 def main():
 	url = "https://graph.facebook.com/me/feed?since=1353609000&access_token=" + token
