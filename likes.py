@@ -1,6 +1,6 @@
 import requests, json, urllib2
 
-token = "" # add youre access token here
+token = "" # add you're access token here, with publish_stream permission
 
 def main():
 	url = "https://graph.facebook.com/me/feed?access_token=" + token
